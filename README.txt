@@ -1,13 +1,4 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2580
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 # Storheia Arena App\
-\
-#### Storheia Arena is an app made by Konstantinos Leivaditis as the final project of the Udacity iOS Developer Nano Degree. This app is made for people from two small towns of Norway, Stokmarknes and Melbu. The people of these towns can use this app to travel on a fun way from one town to the other while they are playing a quiz game. Finally, they can post messages on a live chat and communicate with each other.\
+# Storheia Arena is an app made by Konstantinos Leivaditis as the final project of the Udacity iOS Developer Nano Degree. This app is made for people from two small towns of Norway, Stokmarknes and Melbu. The people of these towns can use this app to travel on a fun way from one town to the other while they are playing a quiz game. Finally, they can post messages on a live chat and communicate with each other.\
 \
 \
 ## Implementation\
