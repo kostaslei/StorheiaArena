@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F5D9E445360A70695B3D2F0 /* Pods_StorheiaArena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF6A79BAAE7656FA06A8245 /* Pods_StorheiaArena.framework */; };
+		C42E588B26E8B05900E164AC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E588A26E8B05900E164AC /* Message.swift */; };
+		C43A1129265FADCD007AF217 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A1128265FADCD007AF217 /* MenuViewController.swift */; };
+		C43A1130266109BC007AF217 /* QuizMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A112F266109BC007AF217 /* QuizMenuViewController.swift */; };
+		C43A115C267767D6007AF217 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C43A115B267767D6007AF217 /* GoogleService-Info.plist */; };
+		C43A115F26777C3D007AF217 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A115E26777C3D007AF217 /* User.swift */; };
+		C43A116226778084007AF217 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A116126778084007AF217 /* LoginViewController.swift */; };
+		C43A116426778095007AF217 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43A116326778095007AF217 /* SignUpViewController.swift */; };
+		C453DFF42721E83B007E0F71 /* AddMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453DFF22721E83B007E0F71 /* AddMessageViewController.swift */; };
+		C453DFF52721E83B007E0F71 /* VirtualBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453DFF32721E83B007E0F71 /* VirtualBookViewController.swift */; };
+		C45DD7CD265795F100B17766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DD7CC265795F100B17766 /* AppDelegate.swift */; };
+		C45DD7CF265795F100B17766 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DD7CE265795F100B17766 /* SceneDelegate.swift */; };
+		C45DD7D1265795F100B17766 /* QuizMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DD7D0265795F100B17766 /* QuizMapViewController.swift */; };
+		C45DD7D4265795F100B17766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45DD7D2265795F100B17766 /* Main.storyboard */; };
+		C45DD7D6265795F500B17766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45DD7D5265795F500B17766 /* Assets.xcassets */; };
+		C45DD7D9265795F500B17766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45DD7D7265795F500B17766 /* LaunchScreen.storyboard */; };
+		C45DD7E12657CD8D00B17766 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DD7E02657CD8D00B17766 /* QuizViewController.swift */; };
+		C45DD7E4265EB0A700B17766 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45DD7E3265EB0A700B17766 /* MapKit.framework */; };
+		C4619F1F26F8CC46005E1B4E /* MessageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4619F1E26F8CC46005E1B4E /* MessageCellView.swift */; };
+		C4619F42270351B7005E1B4E /* AlertNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4619F41270351B7005E1B4E /* AlertNotifications.swift */; };
+		C4619F4A2705F2B4005E1B4E /* NavigationBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4619F492705F2B3005E1B4E /* NavigationBarConfiguration.swift */; };
+		C4619F5327077861005E1B4E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4619F5227077861005E1B4E /* SettingsViewController.swift */; };
+		C4619F55270778A9005E1B4E /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4619F54270778A9005E1B4E /* QuestionsModel.swift */; };
+		C49D8FAC2714E75800402F40 /* KeyboardConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D8FAB2714E75800402F40 /* KeyboardConfigurationViewController.swift */; };
+		C49D8FAE272050E200402F40 /* UIObjectsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D8FAD272050E200402F40 /* UIObjectsConfiguration.swift */; };
+		C49D8FB02720E1A200402F40 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D8FAF2720E1A100402F40 /* AboutViewController.swift */; };
+		C4B664C92684ABA500CFBDC3 /* WeatherAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B664C82684ABA500CFBDC3 /* WeatherAPIClient.swift */; };
+		C4B664CB2685CDE800CFBDC3 /* CurrentWeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B664CA2685CDE800CFBDC3 /* CurrentWeatherResponse.swift */; };
+		C4B664D22689C5D300CFBDC3 /* FirebaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B664D12689C5D200CFBDC3 /* FirebaseClient.swift */; };
+		C4B664D5268A507000CFBDC3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B664D4268A507000CFBDC3 /* DataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CF6A79BAAE7656FA06A8245 /* Pods_StorheiaArena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StorheiaArena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C48CDEFF7A6533FC4D81EA /* Pods-StorheiaArena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorheiaArena.release.xcconfig"; path = "Target Support Files/Pods-StorheiaArena/Pods-StorheiaArena.release.xcconfig"; sourceTree = "<group>"; };
+		C42E588A26E8B05900E164AC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C43A1128265FADCD007AF217 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C43A112F266109BC007AF217 /* QuizMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMenuViewController.swift; sourceTree = "<group>"; };
+		C43A115B267767D6007AF217 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C43A115E26777C3D007AF217 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C43A116126778084007AF217 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C43A116326778095007AF217 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C453DFF22721E83B007E0F71 /* AddMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMessageViewController.swift; sourceTree = "<group>"; };
+		C453DFF32721E83B007E0F71 /* VirtualBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualBookViewController.swift; sourceTree = "<group>"; };
+		C45DD7C9265795F100B17766 /* StorheiaArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StorheiaArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45DD7CC265795F100B17766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C45DD7CE265795F100B17766 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C45DD7D0265795F100B17766 /* QuizMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizMapViewController.swift; sourceTree = "<group>"; };
+		C45DD7D3265795F100B17766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45DD7D5265795F500B17766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45DD7D8265795F500B17766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45DD7DA265795F500B17766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45DD7E02657CD8D00B17766 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		C45DD7E3265EB0A700B17766 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C4619F1E26F8CC46005E1B4E /* MessageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCellView.swift; sourceTree = "<group>"; };
+		C4619F41270351B7005E1B4E /* AlertNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNotifications.swift; sourceTree = "<group>"; };
+		C4619F492705F2B3005E1B4E /* NavigationBarConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarConfiguration.swift; sourceTree = "<group>"; };
+		C4619F5227077861005E1B4E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C4619F54270778A9005E1B4E /* QuestionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsModel.swift; sourceTree = "<group>"; };
+		C473CFE11310B16603AF4DC2 /* Pods-StorheiaArena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StorheiaArena.debug.xcconfig"; path = "Target Support Files/Pods-StorheiaArena/Pods-StorheiaArena.debug.xcconfig"; sourceTree = "<group>"; };
+		C49D8FAB2714E75800402F40 /* KeyboardConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardConfigurationViewController.swift; sourceTree = "<group>"; };
+		C49D8FAD272050E200402F40 /* UIObjectsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIObjectsConfiguration.swift; sourceTree = "<group>"; };
+		C49D8FAF2720E1A100402F40 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C4B664C82684ABA500CFBDC3 /* WeatherAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIClient.swift; sourceTree = "<group>"; };
+		C4B664CA2685CDE800CFBDC3 /* CurrentWeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherResponse.swift; sourceTree = "<group>"; };
+		C4B664D12689C5D200CFBDC3 /* FirebaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseClient.swift; sourceTree = "<group>"; };
+		C4B664D4268A507000CFBDC3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45DD7C6265795F100B17766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45DD7E4265EB0A700B17766 /* MapKit.framework in Frameworks */,
+				9F5D9E445360A70695B3D2F0 /* Pods_StorheiaArena.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A71180029D13862D68F6AB0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C473CFE11310B16603AF4DC2 /* Pods-StorheiaArena.debug.xcconfig */,
+				83C48CDEFF7A6533FC4D81EA /* Pods-StorheiaArena.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C43A1127265FAD9D007AF217 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C43A116026778068007AF217 /* AuthenticationViewControllers */,
+				C43A1128265FADCD007AF217 /* MenuViewController.swift */,
+				C4619F4B2707720D005E1B4E /* SettingsViewControllers */,
+				C4619F4C27077243005E1B4E /* QuizViewControllers */,
+				C453DFF12721E83B007E0F71 /* VirtualBookViewControllers */,
+				C49D8FAF2720E1A100402F40 /* AboutViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C43A116026778068007AF217 /* AuthenticationViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C43A116126778084007AF217 /* LoginViewController.swift */,
+				C43A116326778095007AF217 /* SignUpViewController.swift */,
+			);
+			path = AuthenticationViewControllers;
+			sourceTree = "<group>";
+		};
+		C453DFF12721E83B007E0F71 /* VirtualBookViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C453DFF22721E83B007E0F71 /* AddMessageViewController.swift */,
+				C453DFF32721E83B007E0F71 /* VirtualBookViewController.swift */,
+			);
+			name = VirtualBookViewControllers;
+			path = StorheiaArena/ViewControllers/VirtualBookViewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		C45DD7C0265795F100B17766 = {
+			isa = PBXGroup;
+			children = (
+				C45DD7CB265795F100B17766 /* StorheiaArena */,
+				C45DD7CA265795F100B17766 /* Products */,
+				C45DD7E2265EB0A700B17766 /* Frameworks */,
+				A71180029D13862D68F6AB0A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C45DD7CA265795F100B17766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45DD7C9265795F100B17766 /* StorheiaArena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45DD7CB265795F100B17766 /* StorheiaArena */ = {
+			isa = PBXGroup;
+			children = (
+				C4619F402703518D005E1B4E /* Helpers */,
+				C4619F1D26F8CC2D005E1B4E /* Views */,
+				C4B664D3268A505100CFBDC3 /* Models */,
+				C4B664D02689C5B200CFBDC3 /* FirebaseClient */,
+				C4B664C72684AB8900CFBDC3 /* WeatherAPIClient */,
+				C43A1127265FAD9D007AF217 /* ViewControllers */,
+				C45DD7CC265795F100B17766 /* AppDelegate.swift */,
+				C45DD7CE265795F100B17766 /* SceneDelegate.swift */,
+				C45DD7D2265795F100B17766 /* Main.storyboard */,
+				C45DD7D5265795F500B17766 /* Assets.xcassets */,
+				C45DD7D7265795F500B17766 /* LaunchScreen.storyboard */,
+				C45DD7DA265795F500B17766 /* Info.plist */,
+				C43A115B267767D6007AF217 /* GoogleService-Info.plist */,
+			);
+			path = StorheiaArena;
+			sourceTree = "<group>";
+		};
+		C45DD7E2265EB0A700B17766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45DD7E3265EB0A700B17766 /* MapKit.framework */,
+				7CF6A79BAAE7656FA06A8245 /* Pods_StorheiaArena.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4619F1D26F8CC2D005E1B4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4619F1E26F8CC46005E1B4E /* MessageCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4619F402703518D005E1B4E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C4619F41270351B7005E1B4E /* AlertNotifications.swift */,
+				C4619F492705F2B3005E1B4E /* NavigationBarConfiguration.swift */,
+				C49D8FAB2714E75800402F40 /* KeyboardConfigurationViewController.swift */,
+				C49D8FAD272050E200402F40 /* UIObjectsConfiguration.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C4619F4B2707720D005E1B4E /* SettingsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C4619F5227077861005E1B4E /* SettingsViewController.swift */,
+			);
+			path = SettingsViewControllers;
+			sourceTree = "<group>";
+		};
+		C4619F4C27077243005E1B4E /* QuizViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C43A112F266109BC007AF217 /* QuizMenuViewController.swift */,
+				C45DD7D0265795F100B17766 /* QuizMapViewController.swift */,
+				C45DD7E02657CD8D00B17766 /* QuizViewController.swift */,
+			);
+			path = QuizViewControllers;
+			sourceTree = "<group>";
+		};
+		C4B664C72684AB8900CFBDC3 /* WeatherAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				C4B664C82684ABA500CFBDC3 /* WeatherAPIClient.swift */,
+				C4B664CA2685CDE800CFBDC3 /* CurrentWeatherResponse.swift */,
+			);
+			path = WeatherAPIClient;
+			sourceTree = "<group>";
+		};
+		C4B664D02689C5B200CFBDC3 /* FirebaseClient */ = {
+			isa = PBXGroup;
+			children = (
+				C4B664D12689C5D200CFBDC3 /* FirebaseClient.swift */,
+			);
+			path = FirebaseClient;
+			sourceTree = "<group>";
+		};
+		C4B664D3268A505100CFBDC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C43A115E26777C3D007AF217 /* User.swift */,
+				C4619F54270778A9005E1B4E /* QuestionsModel.swift */,
+				C4B664D4268A507000CFBDC3 /* DataModel.swift */,
+				C42E588A26E8B05900E164AC /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45DD7C8265795F100B17766 /* StorheiaArena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45DD7DD265795F500B17766 /* Build configuration list for PBXNativeTarget "StorheiaArena" */;
+			buildPhases = (
+				DA954BAF53D935DE9C4C8450 /* [CP] Check Pods Manifest.lock */,
+				C45DD7C5265795F100B17766 /* Sources */,
+				C45DD7C6265795F100B17766 /* Frameworks */,
+				C45DD7C7265795F100B17766 /* Resources */,
+				1D4B64823258EF9658870598 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StorheiaArena;
+			productName = StorheiaArena;
+			productReference = C45DD7C9265795F100B17766 /* StorheiaArena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45DD7C1265795F100B17766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C45DD7C8265795F100B17766 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = C45DD7C4265795F100B17766 /* Build configuration list for PBXProject "StorheiaArena" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45DD7C0265795F100B17766;
+			productRefGroup = C45DD7CA265795F100B17766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45DD7C8265795F100B17766 /* StorheiaArena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45DD7C7265795F100B17766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45DD7D9265795F500B17766 /* LaunchScreen.storyboard in Resources */,
+				C43A115C267767D6007AF217 /* GoogleService-Info.plist in Resources */,
+				C45DD7D6265795F500B17766 /* Assets.xcassets in Resources */,
+				C45DD7D4265795F100B17766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D4B64823258EF9658870598 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StorheiaArena/Pods-StorheiaArena-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StorheiaArena/Pods-StorheiaArena-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StorheiaArena/Pods-StorheiaArena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA954BAF53D935DE9C4C8450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StorheiaArena-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45DD7C5265795F100B17766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C43A116426778095007AF217 /* SignUpViewController.swift in Sources */,
+				C4619F42270351B7005E1B4E /* AlertNotifications.swift in Sources */,
+				C42E588B26E8B05900E164AC /* Message.swift in Sources */,
+				C45DD7D1265795F100B17766 /* QuizMapViewController.swift in Sources */,
+				C45DD7CD265795F100B17766 /* AppDelegate.swift in Sources */,
+				C45DD7CF265795F100B17766 /* SceneDelegate.swift in Sources */,
+				C49D8FB02720E1A200402F40 /* AboutViewController.swift in Sources */,
+				C4619F55270778A9005E1B4E /* QuestionsModel.swift in Sources */,
+				C453DFF42721E83B007E0F71 /* AddMessageViewController.swift in Sources */,
+				C4619F4A2705F2B4005E1B4E /* NavigationBarConfiguration.swift in Sources */,
+				C4B664C92684ABA500CFBDC3 /* WeatherAPIClient.swift in Sources */,
+				C453DFF52721E83B007E0F71 /* VirtualBookViewController.swift in Sources */,
+				C4619F1F26F8CC46005E1B4E /* MessageCellView.swift in Sources */,
+				C4B664CB2685CDE800CFBDC3 /* CurrentWeatherResponse.swift in Sources */,
+				C43A1130266109BC007AF217 /* QuizMenuViewController.swift in Sources */,
+				C4619F5327077861005E1B4E /* SettingsViewController.swift in Sources */,
+				C4B664D5268A507000CFBDC3 /* DataModel.swift in Sources */,
+				C49D8FAC2714E75800402F40 /* KeyboardConfigurationViewController.swift in Sources */,
+				C43A115F26777C3D007AF217 /* User.swift in Sources */,
+				C45DD7E12657CD8D00B17766 /* QuizViewController.swift in Sources */,
+				C43A116226778084007AF217 /* LoginViewController.swift in Sources */,
+				C43A1129265FADCD007AF217 /* MenuViewController.swift in Sources */,
+				C4B664D22689C5D300CFBDC3 /* FirebaseClient.swift in Sources */,
+				C49D8FAE272050E200402F40 /* UIObjectsConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C45DD7D2265795F100B17766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45DD7D3265795F100B17766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45DD7D7265795F500B17766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45DD7D8265795F500B17766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45DD7DB265795F500B17766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C45DD7DC265795F500B17766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45DD7DE265795F500B17766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C473CFE11310B16603AF4DC2 /* Pods-StorheiaArena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StorheiaArena/StorheiaArena.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDZN6RX4G3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods\\ 11.31.47/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods\\ 11.31.47/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods\\ 11.31.47/GoogleAppMeasurement/Frameworks",
+				);
+				INFOPLIST_FILE = StorheiaArena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StorheiaArena-Leivaditis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45DD7DF265795F500B17766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C48CDEFF7A6533FC4D81EA /* Pods-StorheiaArena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StorheiaArena/StorheiaArena.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PDZN6RX4G3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods\\ 11.31.47/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods\\ 11.31.47/FirebaseAnalytics/Frameworks",
+					"$(PROJECT_DIR)/Pods\\ 11.31.47/GoogleAppMeasurement/Frameworks",
+				);
+				INFOPLIST_FILE = StorheiaArena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StorheiaArena-Leivaditis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45DD7C4265795F100B17766 /* Build configuration list for PBXProject "StorheiaArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45DD7DB265795F500B17766 /* Debug */,
+				C45DD7DC265795F500B17766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45DD7DD265795F500B17766 /* Build configuration list for PBXNativeTarget "StorheiaArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45DD7DE265795F500B17766 /* Debug */,
+				C45DD7DF265795F500B17766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45DD7C1265795F100B17766 /* Project object */;
+}
